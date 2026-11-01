@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo DOM</title>
+    <style>
+        body {
+            background-color: rgb(221, 162, 89);
+            color: blue;
+            font: normal 18pt Arial ;
+
+        }
+        /*img {
+                display: block;
+                max-width: 100%;
+                height: auto;
+                margin: 20px auto;
+            }*/
+    </style>
+</head>
+<body>
+   <h1>Iniciando estudos sobre  DOM</h1>
+    <p><strong>DOM (DOCUMENT OBJECT MODEL)</strong></p>
+    <p>O DOM (Document Object Model) é o Modelo de Objetos do Documento. É uma representação estruturada
+         de uma página HTML que permite ao JavaScript acessar, 
+         modificar, adicionar e remover elementos de uma página Web.
+
+        Em termos simples: o DOM é a ponte entre o HTML e o JavaScript.
+    1. Como funciona o DOM?
+    Quando você cria uma página HTML e abre no navegador, 
+    ele interpreta o código e constrói uma estrutura em 
+    forma de árvore, chamada Árvore DOM.</p>
+
+     <!-- IMAGEM DA ÁRVORE DOM -->
+<img 
+    src="image/arvore_dom.png" 
+    alt="Representação da Árvore DOM"
+    width="600"
+>
+
+    <p>Essa árvore representa a hierarquia dos 
+    elementos HTML:
+- document: representa o documento.
+- html: elemento principal.
+- head: contém configurações e metadados.
+- body: contém o conteúdo visível.
+- h1, p, button: elementos dentro do body.</p>
+
+    <p>Aqui vai o resultado</p>
+
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+   
+    <div id = "msg">Clique em mim</div>
+<script> 
+    
+    //var corpo = window.document.body.style.background = 'black'
+    //var p1 = window.document.getElementsByTagName('p')[4]
+    //alert(p1.innerText)
+    
+    //var d = window.document.getElementById('msg')
+    //d.style.background = 'green'
+    //d.innerText = 'Estou aguardando....'
+    
+    //window.document.getElementById('msg').innerText = 'Olá!'
+
+    //var d = window.document.getElementsByName('msg')[0]
+    // d.innerText = 'Olá!'
+
+    //var d = window.document.getElementsByClassName('msg')[0]
+    //d.innerText = 'Olá!'
+
+    var d = window.document.querySelector('div#msg')
+    d.style.background = 'green'
+
+    //var d = window.document.querySelector('div.msg')
+    //d.style.background = 'green'
+
+</script>
+
+
+</body>
+</html>
+

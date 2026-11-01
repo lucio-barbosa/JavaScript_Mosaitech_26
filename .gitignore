@@ -1,0 +1,27 @@
+
+# Configurações do VS Code
+.vscode/
+
+# Dependências Node.js
+node_modules/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+
+# Exceção para modelos de configuração
+!.env.example
+
+# Arquivos Python
+__pycache__/
+*.py[cod]

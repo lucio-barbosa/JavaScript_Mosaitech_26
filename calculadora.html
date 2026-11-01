@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora Matemática</title>
+
+    <style>
+        body {
+            font: normal 16px Arial;
+            background-color: #e8eef5;
+            text-align: center;
+        }
+
+        main {
+            background-color: white;
+            width: 350px;
+            margin: 50px auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #0003;
+        }
+
+        h1 {
+            color: #173b68;
+        }
+
+        input[type=number] {
+            width: 120px;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .operacoes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        input[type=button] {
+            padding: 12px;
+            background-color: #173b68;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        input[type=button]:hover {
+            background-color: forestgreen;
+        }
+
+        div#res {
+            margin-top: 20px;
+            background-color: forestgreen;
+            color: rgb(10, 10, 10);
+            min-height: 70px;
+            padding: 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            text-align: center;
+             margin-bottom: 25px;
+        }
+
+        .logo img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="logo">
+            <img src="image/mosaitech-logo-header.png"
+            alt="MOSAITECH - Conectando pessoas, negócios e tecnologia">
+        </div>
+
+        <h2>Calculadora</h2>
+        <p>Digite dois números:</p>
+
+        <input type="number" name="txtn1" id="txtn1">
+        <input type="number" name="txtn2" id="txtn2">
+
+        <div class="operacoes">
+
+            <input type="button" value="Somar" onclick="somar()">
+
+            <input type="button" value="Subtrair" onclick="subtrair()">
+
+            <input type="button" value="Multiplicar" onclick="multiplicar()">
+
+            <input type="button" value="Dividir" onclick="dividir()">
+
+            <input type="button" value="Resto" onclick="modulo()">
+
+        </div>
+
+        <div id="res">
+            Resultado
+        </div>
+
+    </main>
+
+    <script>
+
+        function somar(){
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.querySelector('input#txtn2')
+            var res = window.document.getElementById('res')
+
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+
+            var soma = n1 + n2
+
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a: ${soma}`
+        }
+
+        function multiplicar(){
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.querySelector('input#txtn2')
+            var res = window.document.getElementById('res')
+
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+
+            var multiplica = n1 * n2
+
+            res.innerHTML = `A multiplicação entre ${n1} e ${n2} é igual a: ${multiplica}`
+        }
+
+        function subtrair(){
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.querySelector('input#txtn2')
+            var res = window.document.getElementById('res')
+
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+
+            var subtrai = n1 - n2
+
+            res.innerHTML = `A subtração entre ${n1} e ${n2} é igual a: ${subtrai} `
+        }
+
+        function dividir(){
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.querySelector('input#txtn2')
+            var res = window.document.getElementById('res')
+
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+
+            if (n2 === 0) {
+                res.innerHTML = "Não é possível dividir por zero!"
+                return
+            }
+
+            var divisao = n1 / n2
+
+            res.innerHTML = `A divisão entre ${n1} e ${n2} é igual a: ${divisao}`
+        }
+
+        function modulo(){
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.querySelector('input#txtn2')
+            var res = window.document.getElementById('res')
+
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+
+            if (n2 === 0) {
+                res.innerHTML = "Não é possível dividir por zero!"
+                return
+            }
+
+            var modulo = n1 % n2
+
+            res.innerHTML = `O resto da divisão entre ${n1} e ${n2} é igual a: ${modulo}`
+        }
+
+    </script>
+
+</body>
+</html>
+
+
