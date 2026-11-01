@@ -5,6 +5,10 @@
 </p>
 ### Conectando pessoas, negócios e tecnologia.
 
+## 🎬 Demonstração do projeto
+
+▶️ [Clique aqui para assistir à demonstração da MOSAITECH Calculadora](videos/calculadora-demo.mp4)
+
 ## 📌 Sobre o projeto
 
 A **MOSAITECH Calculadora Matemática** é uma aplicação web desenvolvida
