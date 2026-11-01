@@ -411,6 +411,4 @@ repositório.
   <strong>© 2026 MOSAITECH — Todos os direitos reservados.</strong>
   <br>
   Conectando pessoas, negócios e tecnologia.
-  <br><br>
-  🦎 <strong>MOSAITECH</strong>
 </p>
