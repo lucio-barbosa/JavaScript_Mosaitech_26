@@ -1,14 +1,12 @@
 # 🦎 MOSAITECH \| Calculadora Matemática
 
-### Conectando pessoas, negócios e tecnologia.
 
 
 <p align="center">
 ```
 `<img src="image/logo-mosaitech.png" alt="Logo oficial da MOSAITECH" width="850">`
 </p>
-```
-
+### Conectando pessoas, negócios e tecnologia.
 ------------------------------------------------------------------------
 
 ## 📌 Sobre o projeto
