@@ -20,6 +20,7 @@ fundamentos do desenvolvimento frontend, com atenção especial à lógica
 de programação, aos eventos e à manipulação do **DOM (Document Object
 Model)**.
 
+
 A aplicação recebe dois valores numéricos, permite selecionar uma
 operação matemática e apresenta o resultado diretamente na página.
 
