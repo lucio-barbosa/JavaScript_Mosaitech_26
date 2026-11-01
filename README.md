@@ -405,3 +405,12 @@ estudos e da prática de desenvolvimento frontend.
 repositório.
 
 **MOSAITECH --- Conectando pessoas, negócios e tecnologia.**
+
+
+<p align="center">
+  <strong>© 2026 MOSAITECH — Todos os direitos reservados.</strong>
+  <br>
+  Conectando pessoas, negócios e tecnologia.
+  <br><br>
+  🦎 <strong>MOSAITECH</strong>
+</p>
