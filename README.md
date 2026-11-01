@@ -5,14 +5,17 @@
 </p>
 ### Conectando pessoas, negócios e tecnologia.
 
-## 🎬 Demonstração da Calculadora
+## 🖥️ Demonstração do Projeto – Calculadora MOSAITECH
 
-Assista à demonstração do funcionamento da calculadora:
+Veja a interface da calculadora desenvolvida com HTML, CSS e JavaScript.
 
 <p align="center">
-  <video src="videos/calculadora-demo.mp4" controls width="700">
-  </video>
+  <img src="image/calculadora.png"
+       alt="Calculadora Matemática MOSAITECH"
+       width="700">
 </p>
+
+
 ## 📌 Sobre o projeto
 
 A **MOSAITECH Calculadora Matemática** é uma aplicação web desenvolvida
