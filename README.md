@@ -43,17 +43,48 @@ portfólio de soluções da **MOSAITECH**.
 -   Atualizar o conteúdo da página dinamicamente.
 -   Exercitar a organização e publicação de projetos com Git e GitHub.
 
+
 ## ⚙️ Funcionalidades
 
-A calculadora oferece cinco operações:
+A MOSAITECH Calculadora permite realizar cinco operações matemáticas utilizando dois números informados pelo usuário.
 
-  Operação        Descrição                                Operador JavaScript
-  --------------- ---------------------------------------- ---------------------
-  Soma            Adiciona dois números                    `+`
-  Subtração       Calcula a diferença entre dois números   `-`
-  Multiplicação   Multiplica dois números                  `*`
-  Divisão         Divide o primeiro número pelo segundo    `/`
-  Módulo          Retorna o resto da divisão               `%`
+**➕ 1. Adição (Soma)**
+
+Realiza a soma entre dois números.
+
+Operador: `+`
+
+**➖ 2. Subtração**
+
+Calcula a diferença entre dois números.
+
+Operador: `-`
+
+**✖️ 3. Multiplicação**
+
+Multiplica o primeiro número pelo segundo.
+
+Operador: `*`
+
+**➗ 4. Divisão**
+
+Divide o primeiro número pelo segundo.
+
+Operador: `/`
+
+**% 5. Módulo (Resto da divisão)**
+
+Retorna o resto de uma operação de divisão.
+
+Operador: `%`
+
+**Recursos disponíveis:**
+
+- Entrada de dois valores numéricos.
+- Botões individuais para cada operação.
+- Execução das operações através de eventos JavaScript.
+- Exibição dinâmica dos resultados na interface.
+- Validação para evitar divisão por zero.
 
 Também possui campos para entrada dos números, botões para executar cada
 operação e uma área para exibir o resultado.
@@ -63,24 +94,54 @@ operação e uma área para exibir o resultado.
 
 ## 🛠️ Tecnologias e ferramentas
 
-### Tecnologias
 
-  -----------------------------------------------------------------------
-  Tecnologia                          Como foi utilizada
-  ----------------------------------- -----------------------------------
-  **HTML5**                           Construção da estrutura e dos
-                                      campos da calculadora
+## 🛠️ Tecnologias utilizadas
 
-  **CSS3**                            Cores, espaçamentos, bordas,
-                                      alinhamento e organização dos
-                                      botões
+### 🌐 HTML5
+Responsável pela estrutura da aplicação.
 
-  **JavaScript**                      Implementação das funções e
-                                      operações matemáticas
+- Criação dos campos de entrada numérica.
+- Desenvolvimento dos botões de operações.
+- Organização dos elementos da página.
+- Estruturação da área de resultados.
 
-  **DOM**                             Acesso aos campos e atualização do
-                                      resultado na página
-  -----------------------------------------------------------------------
+### 🎨 CSS3
+Responsável pela identidade visual e apresentação da calculadora.
+
+- Definição de cores e planos de fundo.
+- Espaçamentos e alinhamentos.
+- Bordas arredondadas.
+- Sombras e efeitos visuais.
+- Organização dos botões com CSS Grid.
+- Efeitos de interação com `:hover`.
+
+### ⚡ JavaScript
+Responsável pela lógica e funcionamento da aplicação.
+
+- Declaração e manipulação de variáveis.
+- Criação de funções.
+- Operadores aritméticos.
+- Conversão de valores com `Number()`.
+- Template literals.
+- Execução das cinco operações matemáticas.
+- Tratamento de divisão por zero.
+
+### 🌳 DOM (Document Object Model)
+Responsável pela interação entre JavaScript e HTML.
+
+- `getElementById()` — localização de elementos pelo ID.
+- `querySelector()` — seleção de elementos por seletores CSS.
+- `value` — captura dos valores digitados.
+- `innerHTML` — atualização dinâmica dos resultados.
+- `onclick` — execução das funções através dos cliques.
+
+### 💻 Ferramentas de desenvolvimento
+
+- Visual Studio Code (VS Code).
+- Google Chrome / Mozilla Firefox.
+- Live Server.
+- Git.
+- GitHub.
 
 ### Ferramentas
 
