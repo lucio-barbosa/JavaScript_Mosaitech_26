@@ -2,11 +2,10 @@
 
 ### Conectando pessoas, negócios e tecnologia.
 
-```{=html}
+
 <p align="center">
 ```
-`<img src="image/logo-mosaitech.png" alt="Logo oficial da MOSAITECH" width="850">`{=html}
-```{=html}
+`<img src="image/logo-mosaitech.png" alt="Logo oficial da MOSAITECH" width="850">`
 </p>
 ```
 
